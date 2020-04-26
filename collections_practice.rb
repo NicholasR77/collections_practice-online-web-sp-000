@@ -22,7 +22,8 @@ def swap_elements(array)
   array[1], array [2] = array[2], array[1]
 end
 
-puts swap_elements(array1)
+swap_elements(array1)
+puts array1
 
 #5
 def reverse_array(array)
