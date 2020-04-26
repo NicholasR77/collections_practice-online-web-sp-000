@@ -1,5 +1,6 @@
 #Test variables
-
+array1 = ["apple", "avis", "arlo", "ascot"]
+array2 = [1, 2, 3, 4]
 
 #1
 def sort_array_asc(array)
