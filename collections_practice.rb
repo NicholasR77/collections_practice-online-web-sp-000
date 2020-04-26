@@ -29,7 +29,10 @@ end
 
 #6
 def kesha_maker(array)
-
+  new_array = []
+  array.each do |element|
+    element[3] = "$"
+    new_array.push(element)
 end
 
 #7
