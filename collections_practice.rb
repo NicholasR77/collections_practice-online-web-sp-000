@@ -10,12 +10,20 @@ end
 
 #3
 def sort_array_char_count(array)
-  array.sort { |a, b| a.length <=> b.length } 
+  array.sort { |a, b| a.length <=> b.length }
 end
 
 #4
 def swap_elements(array)
-
+  array.sort do |a, b|
+    if a == b
+      0
+    elsif a < b
+      -1
+    elsif a > b
+      1
+    end
+  end
 end
 
 #5
