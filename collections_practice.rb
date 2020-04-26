@@ -34,12 +34,12 @@ def kesha_maker(array)
     element[3] = "$"
     new_array.push(element)
   end
-  new_array  
+  new_array
 end
 
 #7
 def find_a(array)
-  array.select {|element| element[0] == "a" || element[0] == "a"}
+  array.select {|element| element[0] == "a" || element[0] == "A"}
 end
 
 #8
