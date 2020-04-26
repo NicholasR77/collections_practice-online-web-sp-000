@@ -22,7 +22,7 @@ def swap_elements(array)
   array[1], array [2] = array[2], array[1]
 end
 
-swap_elements(array1)
+
 puts array1
 
 #5
