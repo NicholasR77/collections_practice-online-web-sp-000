@@ -20,6 +20,7 @@ end
 #4
 def swap_elements(array)
   array[1], array [2] = array[2], array[1]
+  array
 end
 
 #5
@@ -52,6 +53,6 @@ def add_s(array)
   array.each_with_index.collect do |element, index|
     if (index != 1)
       element + "s"
-    end  
+    end
   end
 end
