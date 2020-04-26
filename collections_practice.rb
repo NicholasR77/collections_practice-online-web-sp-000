@@ -9,7 +9,7 @@ end
 
 #2
 def sort_array_desc(array)
-  array.sort.reverse
+  array.sort.reverse!
 end
 
 #3
@@ -24,7 +24,7 @@ end
 
 #5
 def reverse_array(array)
-  array.reverse
+  array.reverse!
 end
 
 #6
