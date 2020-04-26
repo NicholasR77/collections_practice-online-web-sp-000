@@ -24,7 +24,7 @@ end
 
 #5
 def reverse_array(array)
-
+  array.reverse!
 end
 
 #6
